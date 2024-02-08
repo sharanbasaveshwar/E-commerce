@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+}
+header{
+    height:55px ;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+header img{
+    width:100px;
+}
+header .main{
+    /* height: 100px;
+    width: 300; */
+    display: flex;
+    align-items: center;
+
+}
+.head-loc span{
+    font-size: 25px;
+    
+}
+.loc-name p{
+   font-size: 15px;
+   margin:0;
+}
+.loc-name h5{
+    font-size: 10px;
+    margin: 0;
+}
+.search{
+    display: flex;
+    width: 600px;
+    float: right;
+    margin-left: 20px;
+}
+.flag{
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+}
+.flag img{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    bottom: 3px;
+}
+.flag h5{
+    font-size: 15px;
+}
+.sign-in p{
+    margin: 0;
+    font-size: 15px;
+}
+.sign-in h5{
+    margin: 0;
+    font-size: 10px;
+}
+.orders{
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.cart{
+    margin-left: 30px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.cart span{
+    font-size: 40px;
+    margin-left: 30px;
+    
+}
+.title{
+    height: 50px;
+    width: 100%;
+    background-color:rgb(35, 34, 34);
+    
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+    text-align: center;
+    position: sticky;
+    margin-top: 50px;
+}
+.title a{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 15px;
+    padding: 3px 20px;
+    position: relative;
+    top: 5px;
+}
+.title a:hover{
+    color: white;
+    border: 1px white solid;
+    padding: 3px 25px;
+    border-radius: 5px;
+}
+.title span{
+    position: relative;
+    top: 5px;
+}
+.home{
+    height: fit-content;
+    width: 80%;
+    background-color:gainsboro;
+    margin: auto;
+}
+.carousel-control-next-icon{
+    position: relative;
+    bottom: 90px;
+}
+.carousel-control-prev-icon{
+    position: relative;
+    bottom: 90px;
+}
+.television{
+    height: 400px;
+    width: 300px;
+    background-color:peachpuff;
+    border: solid;
+    margin-top: 20px;
+    /* position: relative;
+    top: -150px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* text-align: center; */
+}
+.product_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+    position: relative;
+    bottom: 200px;
+    /* background-color: gainsboro; */
+}
+.tele-item-one img{
+    /* height: 150px;
+    width: 100px; */
+    /* background-color: rgb(97, 216, 111); */
+    width: 120px;
+    height: 100px;
+    /* margin-top: -10px; */
+}
+.television .text{
+    height: 5px;
+    width: 250px;
+    color: black;
+}
+.tele-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tele-item-one p{
+    height: 20px;
+    width: 120px;
+    font-size: 12px;
+}
+.mobile_accessories{
+    width: 100%;
+    height: 250px;
+    background-color:white;
+    position: relative;
+    bottom: 150px;
+}
+.mobile_items img{
+    height: 200px;
+    width: 200px;
+}
+
+.mobile_items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+.mobile_accessories p{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.cloth_items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+.Cloths p{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.cloth_items img{
+    height: 200px;
+    width: 200px;
+}
+.Cloths{
+    width: 100%;
+    height: 250px;
+    background-color:white;
+    position: relative;
+    bottom: 100px;
+}
+.Home_appliances{
+    width: 100%;
+    height: 250px;
+    background-color:white;
+    position: relative;
+    bottom: 50px;
+}
+.home_items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+.Home_appliances p{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.home_items img{
+    height: 180px;
+    width: 200px;
+}
+.Kids{
+    width: 100%;
+    height: 250px;
+    background-color:white;
+    position: relative;
+    bottom: 0px;
+}
+.kid_items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+.Kids p{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.kid_items img{
+    height: 200px;
+    width: 200px;
+}
+.grocerry{
+    width: 100%;
+    height: 250px;
+    background-color:white;
+    position: relative;
+    bottom: -50px;
+}
+.grocerry_items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+.grocerry p{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.grocerry_items img{
+    height: 200px;
+    width: 200px;
+}
+.medicine{
+    width: 100%;
+    height: 250px;
+    background-color:white;
+    position: relative;
+    bottom: -100px;
+}
+.medicine_items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+.medicine p{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.medicine_items img{
+    height: 200px;
+    width: 200px;
+}
+.Fashion{
+    width: 100%;
+    height: 250px;
+    background-color:white;
+    position: relative;
+    bottom: -150px;
+}
+.fashion_items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+.Fashion p{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.fashion_items img{
+    height: 200px;
+    width: 200px;
+}
+.footware{
+    width: 100%;
+    height: 250px;
+    background-color:white;
+    position: relative;
+    bottom: -200px;
+}
+.footware_items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+.footware p{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.footware_items img{
+    height: 200px;
+    width: 200px;
+}
+.back_to_top{
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    position: relative;
+    top:250px;
+    text-align: center;
+}
+.back_to_top a{
+    margin-top: 20px;
+}
+.aboutus{
+    height: 350px;
+    width: 100%;
+    background-color: #36454F;
+    position: relative;
+    top: 250px;
+    display: flex;
+    
+}
+.aboutus .boxx1{
+    height: 300px;
+    width: 300px;
+    background-color: #36454F;
+    position: relative;
+    top: 20PX;
+    left: 20px;
+}
+.aboutus .boxx2{
+    height: 300px;
+    width: 300px;
+    background-color: #36454F;
+    position: relative;
+    top: 20PX;
+    left: 25px;
+}
+.aboutus .boxx3{
+    height: 300px;
+    width: 300px;
+    background-color: #36454F;
+    position: relative;
+    top: 20PX;
+    left: 30px;
+}
+.aboutus .boxx4{
+    height: 300px;
+    width: 300px;
+    background-color: #36454F;
+    position: relative;
+    top: 20PX;
+    left: 35px;
+}
+.final{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 250px;
+}
+.final h5{
+    color: white;
+}
+
+
+
+
+
+.mobile_page{
+    width: 80%;
+    height: 600px;
+    /* background-color: burlywood; */
+    position: relative;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.mobile_page .img2{
+    position: relative;
+    bottom: 10px;
+}
+.products{
+    width: 80%;
+    position: relative;
+    left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.products .realme{
+    width: 400px ;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content:space-evenly;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.realme img{
+    height: 350px;
+    width: 300px;
+}
+
+.back_to_top_1{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(14, 10, 10);
+    position: relative;
+    /* top:250px; */
+    text-align: center;
+}
+.back_to_top_1 a{
+    margin-top: 50px;
+    text-decoration: none;
+
+}
+.footer_mobile{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(51, 50, 50);
+    position: relative;
+    /* top: 250px; */
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.footer_mobile{
+    color: blanchedalmond;
+}
